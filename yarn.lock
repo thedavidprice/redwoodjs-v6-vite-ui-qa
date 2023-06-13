@@ -22,6 +22,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@antfu/utils@npm:^0.7.2":
+  version: 0.7.4
+  resolution: "@antfu/utils@npm:0.7.4"
+  checksum: 18b9708e712c984abf2657c4392ad451bbc18088e89dee3b647ddb5b131e842e01c5c9804a03cb08226b228520ae4baf427eb5a17dab18ea837e4e7136dcf0ea
+  languageName: node
+  linkType: hard
+
 "@apollo/cache-control-types@npm:^1.0.2":
   version: 1.0.2
   resolution: "@apollo/cache-control-types@npm:1.0.2"
@@ -4145,7 +4152,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/sourcemap-codec@npm:^1.4.10":
+"@jridgewell/sourcemap-codec@npm:^1.4.10, @jridgewell/sourcemap-codec@npm:^1.4.13":
   version: 1.4.15
   resolution: "@jridgewell/sourcemap-codec@npm:1.4.15"
   checksum: 0c6b5ae663087558039052a626d2d7ed5208da36cfd707dcc5cea4a07cfc918248403dcb5989a8f7afaf245ce0573b7cc6fd94c4a30453bd10e44d9363940ba5
@@ -7817,6 +7824,32 @@ __metadata:
     "@whatwg-node/fetch": ^0.8.3
     tslib: ^2.3.1
   checksum: 5bd10ac9414bad7b703088f3fd8539c7dd0fb8ceb252b1e501a7206545ccc2dda8ec9de9e495dd43197c97bc840d7b3d12e06f26ef3f449655f196f6d5c25143
+  languageName: node
+  linkType: hard
+
+"@windicss/config@npm:1.9.0":
+  version: 1.9.0
+  resolution: "@windicss/config@npm:1.9.0"
+  dependencies:
+    debug: ^4.3.4
+    jiti: ^1.18.2
+    windicss: ^3.5.6
+  checksum: 71f63554564a91f9560f10ae4d8e9efa81e2412839bad77e58f9175dff36c16518f6a5c20ae18e3e94ac593b6f597675fad94425baa8b23b89a84c9f4571904f
+  languageName: node
+  linkType: hard
+
+"@windicss/plugin-utils@npm:1.9.0, @windicss/plugin-utils@npm:^1.8.10":
+  version: 1.9.0
+  resolution: "@windicss/plugin-utils@npm:1.9.0"
+  dependencies:
+    "@antfu/utils": ^0.7.2
+    "@windicss/config": 1.9.0
+    debug: ^4.3.4
+    fast-glob: ^3.2.12
+    magic-string: ^0.30.0
+    micromatch: ^4.0.5
+    windicss: ^3.5.6
+  checksum: cf685cdb409a76f58962fb4c020884ac821971bfa70ed11e7e3cab312fcdd89f31778a7e59cc811bbdda34ea3cdbb1ca674ff3a5ad2717f7ef66084031d86477
   languageName: node
   linkType: hard
 
@@ -13499,6 +13532,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"get-port@npm:^6.1.2":
+  version: 6.1.2
+  resolution: "get-port@npm:6.1.2"
+  checksum: cac5f0c600691aed72fdcfacd394b8046080b5208898c3a6b9d10f999466297f162d7907bc6ecbc62d109a904dab7af7cdc0d7933ce2bcecfc5c1fedf7fcfab1
+  languageName: node
+  linkType: hard
+
 "get-source@npm:^2.0.12":
   version: 2.0.12
   resolution: "get-source@npm:2.0.12"
@@ -15855,7 +15895,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jiti@npm:^1.17.1":
+"jiti@npm:^1.17.1, jiti@npm:^1.18.2":
   version: 1.18.2
   resolution: "jiti@npm:1.18.2"
   bin:
@@ -16213,6 +16253,13 @@ __metadata:
   version: 3.0.3
   resolution: "kleur@npm:3.0.3"
   checksum: cd3a0b8878e7d6d3799e54340efe3591ca787d9f95f109f28129bdd2915e37807bf8918bb295ab86afb8c82196beec5a1adcaf29042ce3f2bd932b038fe3aa4b
+  languageName: node
+  linkType: hard
+
+"kolorist@npm:^1.8.0":
+  version: 1.8.0
+  resolution: "kolorist@npm:1.8.0"
+  checksum: 73075db44a692bf6c34a649f3b4b3aea4993b84f6b754cbf7a8577e7c7db44c0bad87752bd23b0ce533f49de2244ce2ce03b7b1b667a85ae170a94782cc50f9b
   languageName: node
   linkType: hard
 
@@ -16704,6 +16751,15 @@ __metadata:
   bin:
     lz-string: bin/bin.js
   checksum: 36128e4de34791838abe979b19927c26e67201ca5acf00880377af7d765b38d1c60847e01c5ec61b1a260c48029084ab3893a3925fd6e48a04011364b089991b
+  languageName: node
+  linkType: hard
+
+"magic-string@npm:^0.30.0":
+  version: 0.30.0
+  resolution: "magic-string@npm:0.30.0"
+  dependencies:
+    "@jridgewell/sourcemap-codec": ^1.4.13
+  checksum: 5fac57cf190bee966d3b5c55e0c23d6148b043a43220de91a369c4a81301b483418712b38440d15055a2ac04beec63dea4866a4e5c84ad6b919186e1c5c61241
   languageName: node
   linkType: hard
 
@@ -20310,6 +20366,7 @@ __metadata:
     "@redwoodjs/cli-storybook": 6.0.0-canary.395
     "@redwoodjs/core": 6.0.0-canary.395
     deep-equal: ^2.2.1
+    vite-plugin-windicss: ^1.9.0
   languageName: unknown
   linkType: soft
 
@@ -22843,6 +22900,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vite-plugin-windicss@npm:^1.9.0":
+  version: 1.9.0
+  resolution: "vite-plugin-windicss@npm:1.9.0"
+  dependencies:
+    "@windicss/plugin-utils": 1.9.0
+    debug: ^4.3.4
+    kolorist: ^1.8.0
+    windicss: ^3.5.6
+  peerDependencies:
+    vite: ^2.0.1 || ^3.0.0 || ^4.0.0
+  checksum: 054d5cb0cbacfb37d05fa47416ef22d05d9c274a7a0c84fe362adf56be8503059a011d2903320d79895019a63a68d482cdbcf4c5f3537b5c5c3d4c6db6a2333d
+  languageName: node
+  linkType: hard
+
 "vite@npm:4.3.9":
   version: 4.3.9
   resolution: "vite@npm:4.3.9"
@@ -23033,6 +23104,8 @@ __metadata:
     prop-types: 15.8.1
     react: 18.2.0
     react-dom: 18.2.0
+    windicss: ^3.5.6
+    windicss-webpack-plugin: ^1.7.8
   languageName: unknown
   linkType: soft
 
@@ -23252,6 +23325,13 @@ __metadata:
   version: 0.4.6
   resolution: "webpack-virtual-modules@npm:0.4.6"
   checksum: d3ecd680289e04f6fac70f09a682385b176303cfdc69ad08f11fce6fa031f9c054b3e728cb54967da48f051cd2ebe3f0d0d02bf78d3dfc8a3a9be91ea7544bbb
+  languageName: node
+  linkType: hard
+
+"webpack-virtual-modules@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "webpack-virtual-modules@npm:0.5.0"
+  checksum: 0742e069cd49d91ccd0b59431b3666903d321582c1b1062fa6bdae005c3538af55ff8787ea5eafbf72662f3496d3a879e2c705d55ca0af8283548a925be18484
   languageName: node
   linkType: hard
 
@@ -23507,6 +23587,31 @@ __metadata:
   version: 2.0.1
   resolution: "wildcard@npm:2.0.1"
   checksum: 08f70cd97dd9a20aea280847a1fe8148e17cae7d231640e41eb26d2388697cbe65b67fd9e68715251c39b080c5ae4f76d71a9a69fa101d897273efdfb1b58bf7
+  languageName: node
+  linkType: hard
+
+"windicss-webpack-plugin@npm:^1.7.8":
+  version: 1.7.8
+  resolution: "windicss-webpack-plugin@npm:1.7.8"
+  dependencies:
+    "@windicss/plugin-utils": ^1.8.10
+    debug: ^4.3.4
+    get-port: ^6.1.2
+    loader-utils: ^2.0.0
+    lodash: ^4.17.21
+    pathe: ^1.1.0
+    webpack-virtual-modules: ^0.5.0
+    windicss: ^3.5.6
+  checksum: 651242a1f31191422bc43ac6f9935d261e904661f4d3e02c9d5287d75e8565dca43690d47c7068faa4c94c2ca09575a5aa0e4e86b8e49f677396a17de2874646
+  languageName: node
+  linkType: hard
+
+"windicss@npm:^3.5.6":
+  version: 3.5.6
+  resolution: "windicss@npm:3.5.6"
+  bin:
+    windicss: cli/index.js
+  checksum: 391d90adee80bfad1a06af7e5ca74d6c94381540fdba58482cca01b1bd6fb68f6c678ba9e74ea511cf1204cbd72cdb4b56c1601cf2150250b5467de20ec99c19
   languageName: node
   linkType: hard
 
