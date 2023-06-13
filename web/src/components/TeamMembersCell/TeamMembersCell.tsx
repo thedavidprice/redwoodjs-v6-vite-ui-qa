@@ -1,3 +1,5 @@
+import { Badge } from '@chakra-ui/react'
+
 import TeamMember from '../TeamMember/TeamMember'
 
 export const QUERY = gql`
@@ -21,6 +23,9 @@ export const Failure = ({ error }) => (
 export const Success = ({ teamMembers }) => {
   return (
     <>
+      <Badge variant="solid" colorScheme="green">
+        Success
+      </Badge>
       <ul className="grid grid-cols-5 gap-x-4 gap-y-6">
         {teamMembers.map((member) => (
           <li key={member.id}>
