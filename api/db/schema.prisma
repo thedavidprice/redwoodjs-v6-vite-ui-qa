@@ -16,3 +16,9 @@ model UserExample {
   email String  @unique
   name  String?
 }
+
+model TeamMember {
+  id       Int     @id @default(autoincrement())
+  name     String?
+  imageUrl String?
+}
