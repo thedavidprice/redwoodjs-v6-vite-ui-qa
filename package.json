@@ -11,7 +11,8 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@redwoodjs/cli-storybook": "6.0.0-canary.395",
     "@redwoodjs/core": "6.0.0-canary.395",
-    "deep-equal": "^2.2.1"
+    "deep-equal": "^2.2.1",
+    "prettier-plugin-tailwindcss": "^0.3.0"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
